@@ -14,7 +14,7 @@ const crypto  = require("crypto");
 // ─── Config ───────────────────────────────────────────────────────────────────
 
 const PORT           = process.env.PORT || 3000;
-const IMALI_API_KEY  = process.env.IMALI_API_KEY  || "sk_live_905ed813a9c710db7ba06f5f2328ba108f316cda";
+const IMALI_API_KEY  = process.env.IMALI_API_KEY  || "pk_live_aeabd391b08cb51214986548ee50f2ea7b82e267";
 const IMALI_BASE_URL = process.env.IMALI_BASE_URL || "https://sandbox.imali.app/api/imali/v1";
 const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET || "";
 
